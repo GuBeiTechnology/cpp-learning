@@ -63,5 +63,5 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.26.4)      #貌似井号是注释
 project(XXXXXX)                             #这里就和那个庞大的IDE的工程名称类似啦
 
 3.构建目标
-add_executable(可执行程序，源文件1，源文件2, ...)   
+add_executable(可执行程序 源文件1 源文件2  ...)   这里好像不能有，
 一般上面的就够用了遇到更加复杂的留给那时候解决Bug的"我"吧！！！！
