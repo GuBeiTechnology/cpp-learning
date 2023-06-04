@@ -65,3 +65,13 @@ project(XXXXXX)                             #这里就和那个庞大的IDE的�
 3.构建目标
 add_executable(可执行程序 源文件1 源文件2  ...)   这里好像不能有，
 一般上面的就够用了遇到更加复杂的留给那时候解决Bug的"我"吧！！！！
+
+果然找到合适自己的教程才是好的
+上午磨了两个番茄时间没耐心了
+打了一下午游戏现在在B站上找了一期2020年的Vscode配合Cmake工具的视频瞬间清晰了
+
+其实如果不适用Cmake或者Makefile这一类工具也可以自己使用G++分步编译链接起来
+
+g++  
+-c                       Compile and assemble, but do not link. //编译和汇编，但不链接。
+-o <file>                Place the output into <file>.          //将输出放入 <file>.
